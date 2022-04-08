@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 30px;
+    
+}
+
+.main-content{
+    
+    position: relative;
+    color: rgb(228, 213, 213);
+    height: 650px;
+    margin: 0em;   
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    position: fixed;
+    background-color:#97212D ;
+    padding: 1em 2em;
+    width: 96%;
+    z-index: 100;
+    top: 0;
+}
+
+.control{
+    display: flex;
+    
+}
+
+.clear10 {
+    margin-top: 76px;
+    clear: both;
+    height: 10px;
+}
+.experience{
+    width: 100%;
+    float: left;
+}
+.boxnews{
+    width: 102%;
+    margin: 0 -1%;
+    margin-top: 20px;
+}
+.boxnews li {
+    float: left;
+    margin: 0 1%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+li {
+    list-style: none;
+}
+.boxnews li .img {
+    float: left;
+    margin-right: 15px;
+}
+a {
+    text-decoration: none;
+}
+.boxnews li .img img {
+    height: 100px;
+    width: 233px;
+    border-radius: 3px;
+}
+img:not(.initial) {
+    transition: opacity 2s;
+}
+img {
+    max-width: 100%;
+}
+.boxnews li h3 {
+    color: #333;
+    margin: 0px 0 10px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+}
+.boxnews li p {
+    color: #888;
+    font-style: italic;
+    font-size: 14px;
+}
+.boxnews li div {
+    line-height: 24px;
+    margin-top: 10px;
+}
+.date {
+    font-size: 0px;
+}
+
+.page{
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.page-col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.page-link{
+    text-align: center;
+}
+.page-link .page-number {
+    text-align: center;
+    background-image: linear-gradient(20deg,#d51313 0%,#e81d1d 100%);
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+}

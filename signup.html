@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form >
+        <div class="container">
+          <h1> Đăng Ký</h1>
+          <hr>
+          <div class="contact user">
+            <label for="user"><b>Tên đăng nhập</b></label>
+            <input type="text" placeholder="Nhập tên đăng nhập" name="user" required>
+          </div>
+          
+
+          <div class="contact mail">
+            <label for="email"><b>Email</b></label>
+            <input type="email"placeholder=" nhập email" id="email" name="email" >
+            <input type="button" name="check" value="Check" onclick="checkEmail();">
+            </div>
+
+
+          <div class="contact psw">
+            <label for="psw"><b>Mật Khẩu</b></label>
+             <input type="password" placeholder="Nhập Mật Khẩu" name="psw" required>
+          </div>
+
+
+          <div class="contact psw-repeat">
+            <label for="psw-repeat"><b>Nhập Lại Mật Khẩu</b></label>
+             <input type="password" placeholder="Nhập Lại Mật Khẩu" name="psw-repeat" required>
+          </div>
+
+         <label class="check">
+            <input type="checkbox" checked="checked" name="remember"> Nhớ Đăng Nhập
+          </label>
+
+         <div class="clearfix">
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+    </form>
+
+
+      <script>
+        function checkEmail() {
+        var email = document.getElementById('email');
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (!filter.test(email.value)) {
+            alert('Hay nhap dia chi email hop le.\nExample@gmail.com');
+            email.focus;
+            return false;
+        }
+        else
+        {
+            alert('OK roi day, Email nay hop le.');
+        }
+        }
+      </script>
+    
+</body>
+</html>

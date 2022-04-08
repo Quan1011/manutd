@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    text-align: center;
+    width: 50%;
+    height: 100vh;
+    margin-left: 25%;
+    background-color:rgb(226, 199, 199);
+    padding: 16px;
+    
+}
+h1 {
+    color: #607d8b;
+    margin-top: 80px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+hr {
+    border: 1px solid red;
+    margin-bottom: 25px;
+    width: 50%;
+    margin-left: 25%;
+  }
+.contact {
+    margin: 16px 0;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 50%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    resize: vertical;
+    padding:12px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+    
+  }
+input[type=button] {
+    margin-left: 16px;
+    width: 70px;
+    padding: 5px;
+    border-radius:15px ;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+  }
+input[type=button]:hover {
+    cursor: pointer;
+  }
+
+.user {
+    margin-left: -18px;
+}
+.psw {
+    margin-left: -44px;
+}
+.check {
+    float:left;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+button {
+    background-color: #7bd7f3; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 16px;
+  }
+button:hover {
+    opacity:1;
+    background-color: #69b9d1;
+  }
+.signupbtn {
+    width: 80%;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.2);
+  }
+ 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/71a0cc919a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body> 
+<div>
+    <section>
+
+        <div class="noi-dung">
+            <div class="form">
+                <h1> Đăng Nhập</h1>
+                <form action="">
+                    <div class="input-form">
+                        <span>Tên Người Dùng</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="input-form">
+                        <span>Mật Khẩu</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="nho-dang-nhap">
+                        <label><input type="checkbox" name=""> Nhớ Đăng Nhập</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" value="Đăng Nhập">
+                    </div>
+                    <div class="input-form">
+                        <p>Bạn Chưa Có Tài Khoản? <a href="signup.html">Đăng Ký</a></p>
+                    </div>
+                </form>
+                <h3>Đăng Nhập Bằng Mạng Xã Hội</h3>
+                <ul class="icon-dang-nhap">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-google" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+        <!--Kết Thúc Phần Nội Dung-->
+    </section>
+
+</div>
+
+
+<script>
+    function checkEmail() {
+    var email = document.getElementById('email');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!filter.test(email.value)) {
+    alert('Hay nhap dia chi email hop le.\nExample@gmail.com');
+    email.focus;
+    return false;
+        }
+    else {
+    alert('OK roi day, Email nay hop le.');
+        }
+    }
+    </script>
+</body>
+</html>

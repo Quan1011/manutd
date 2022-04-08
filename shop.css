@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 30px;
+    
+}
+
+.main-content{
+    
+    position: relative;
+    color: rgb(228, 213, 213);
+    height: 650px;
+    margin: 0em;   
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    position: fixed;
+    background-color:#97212D ;
+    padding: 1em 2em;
+    width: 96%;
+    z-index: 100;
+    top: 0;
+}
+
+.control{
+    display: flex;
+    
+}
+
+#slider {
+    margin-top: 76px;
+    padding-top: 50%;
+    background: url('/btcuoimon/pic/shop/mu.jpg') top center / cover no-repeat;
+}
+
+#content {
+
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading {
+    color: red;
+}
+
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+}
+
+#content .member-name {
+    color: #000;
+    font-size: 15px;
+}
+
+#content .member-img {
+    margin-top: 15px;
+}
+
+/* Shirt */
+
+.shirts-list {
+    margin: 32px -8px 0;
+}
+.shirt-item {
+    float: left;
+    width: 33,33333%;
+    padding: 0 8px;
+}
+.shirt-img {
+    width: 100%;
+}
+.shirt-body {
+    padding: 16px;
+    font-size: 15px;
+    /* background-color: #333; */
+}
+.shirt-heading {
+    
+}
+.shirt-buy {
+    color: #000;
+    background-color: rgb(202, 182, 182);
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.shirt-buy:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+/* footer */
+.footer{
+    position: relative;
+    bottom: -50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.sponsor{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    
+}
+.sponsor div img{
+    width: 100px;
+    margin: 0 1em;
+    opacity: 0.5;
+}
+.contact{
+    position: absolute;
+    display: flex;
+    bottom: 20%;
+    right: 5%;
+}
+.contact-items{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    padding: 1em;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 0.5em;
+    transition: 0.7s;
+   
+}
+.contact-items:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
